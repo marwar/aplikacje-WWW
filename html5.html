@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>szablon cw 1</title>
+<meta name="description" content="opis strony" />
+<meta name="keywords" content="slowa kluczowe" />
+<meta name="author" content="autor strony" />
+<meta charset="UTF-8" /> <!-- kododwanie znakow -->
+</head>
+
+<body>
+<!-- The content of the document...... - glowna tresc/zawartosc strony -->
+
+<form action="?" name="konto" method="post" enctype="multiport/formdata" onsubmit="">
+<label>imie: <input type="text" id="imie" value="" name="imie"></label>
+<label>nazwisko: <input type="text" id="nazwisko" value="" name="nazwisko"></label>
+<br><label>login: <input type="text" id="login" value="" name="login"></label>
+<label>haslo: <input type="password" id="haslo" value="" name="haslo"></label>
+<label>powtorz haslo: <input type="password" id="haslo_pow" value="" name="haslo_pow"></label>
+<br><label>adres zamieszkania: <input type="text" id="adres" value="" name="adres"></label>
+<br><label>rok urodzenia: <input type="text" id="dataur" value="" name="dataur"></label>
+<br><label>plec: <input type="text" id="plec" value="" name="plec"></label>
+<br><label>wykrztalcenie: <select name="wykrztalcenie" size="4">
+<option value="wyzsze">wy¿sze</option>
+<option value="srednie">œrednie</option>
+<option value="techniczne">techniczne</option>
+<option value="podstawowe">podstawowe</option>
+</select></label>
+<br><label>zainteresowania: 
+<input type="checkbox" name="zainteresowania[]" value="sport"><a>sport </a>
+<input type="checkbox" name="zainteresowania[]" value="muzyka"><a>muzyka </a>
+<input type="checkbox" name="zainteresowania[]" value="film"><a>film </a>
+<input type="checkbox" name="zainteresowania[]" value="ksiazka"><a>ksiazka </a>
+</label>
+<br><label>uwagi: <textarea name="uwagi" rows="5" cols="50"></textarea></label>
+</select></label>
+<br><label>wykrztalcenie: <select name="wykrztalcenie" size="4" multiple="multiple">
+<option value="java">java</option>
+<option value="php">php</option>
+<option value="java-script">java-script</option>
+<option value="C++">C++</option>
+</select></label>
+<br><label>obrazek: <input type="file" name="obrazek" accept="image/jpeg,image/gif,image/png" size="50"></label>
+<br><input type="image" src="wyslij.png" alt="obrazkowy przysisk wysylania formulazra" >
+<br><input type="reset" value="RESET" >
+
+</form>
+
+</body>
+
+</html> 
